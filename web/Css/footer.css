@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Jul, 2016, 8:21:17 AM
+    Author     : user
+*/
+
+.footer{
+    background-image:url('../Images/FooterBackground.png');
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    
+   
+   
+    
+}
+.footerContent{
+    display:block;
+    float:left;
+    margin:0.5% 5% 3.5% 5%;
+    
+}
+.footerContent a{
+   text-decoration: none;  
+}
+.footerContent a h4{
+    margin:1px;
+    padding:1px;
+    color:#191970; 
+}
+#btnfooter{
+    float:right;
+    color:black;
+    background-color:grey;
+    opacity:0.8;
+    
+    outline:none;
+    font-size:25px;
+    margin-right:2%;
+
+}
+#btnfooterHover{
+    display:none;
+    border:1px solid black;
+    background-color:#dddddd;
+    float:right;
+ 
+}
+#btnfooter:hover + #btnfooterHover{
+    display:block;
+    
+}

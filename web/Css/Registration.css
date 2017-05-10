@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jul, 2016, 12:25:13 AM
+    Author     : user
+*/
+
+#tblSignup{
+    margin-left:100px;
+    font-family: Cursive,sans-serif;
+    font-size: 24px;
+    color:white;
+    
+}
+#tblSignup tr{
+height: 50px;
+}
+#tblSignup th {
+    text-align: left;
+}
+#formLogin{
+     font-family: Cursive,sans-serif;
+    font-size: 24px;
+    
+}
+select, input{
+    font-size: 19px;
+    
+ }
+.btn{
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    border:0px;
+     box-shadow: 3px 3px 3px black;
+    
+    
+}

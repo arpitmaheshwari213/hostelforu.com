@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Jul, 2016, 1:12:50 AM
+    Author     : user
+*/
+
+*{
+    box-sizing:border-box;
+}
+ #menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:#60047a;
+     position: fixed;
+    top: 0%;
+    width: 100%;
+    left:0%;
+    opacity:0.9;
+   
+}
+
+.menuItems{
+    float: left;
+    font-family:serif ,sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    
+}
+
+.menuItems a ,.dropElement{
+     display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+.menuItems a:hover ,.dropElement:hover {
+    background-color:#9900ff;
+}
+.menuItemRightFloat{
+    float:right;
+}
+
+/*DropDown Login Icon*/
+.dropdown {
+    
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+   position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right:0;
+    overflow:auto;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:24px;
+     
+}
+
+.dropdown-content a:hover {background-color: #efefe;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
