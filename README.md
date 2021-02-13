@@ -66,6 +66,6 @@ Tables
 7. Booking(bid,rid,custid,bdate,checkin_date,checkout_date,payment)
 8. Review(rid,hid,rid,review,rating)
 
-
+For more details Read `hostel management system report.pdf` file.
 
 
